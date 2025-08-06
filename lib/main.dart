@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_intro_academia/hello_world/hello_world_screen.dart';
+import 'package:flutter_intro_academia/scaffold_example/scaffold_screen.dart';
 
 void main() {
   runApp(FlutterIntroApp());
@@ -15,7 +15,8 @@ class FlutterIntroApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.red),
       ),
-      home: HelloWorldScreen(),
+      // home: HelloWorldScreen(),
+      home: ScaffoldScreen(),
     );
   }
 }
