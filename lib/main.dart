@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_intro_academia/widgets_basicos/widgets_basicos_screen.dart';
+import 'package:flutter_intro_academia/stateful_widget_example/stateful_widget_screen.dart';
 
 void main() {
   runApp(FlutterIntroApp());
@@ -17,7 +17,8 @@ class FlutterIntroApp extends StatelessWidget {
       ),
       // home: HelloWorldScreen(),
       // home: ScaffoldScreen(),
-      home: WidgetsBasicosScreen(),
+      // home: WidgetsBasicosScreen(),
+      home: StatefulWidgetScreen(),
     );
   }
 }
